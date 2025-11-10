@@ -1,7 +1,7 @@
 import pandas as pd
 import nfl_data_py as nfl
 
-from helperFunction import weeklyPlayerStats
+from helperFunctions import weeklyPlayerStats
 
 playerStats= weeklyPlayerStats(2024,"QB")
 
