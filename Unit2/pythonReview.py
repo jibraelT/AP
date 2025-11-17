@@ -38,7 +38,7 @@ thetxt= the_function("this might look a little weird")
 # many attempts they made.
 
 def guesscheck():
-    print("please enter a number")
+    print("ple ase enter a number")
     number = input()
     values= []
     while number != 'q':

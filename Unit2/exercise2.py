@@ -1,7 +1,7 @@
 import pandas as pd
 import nfl_data_py as nfl
-from helperFunctions import get_season_Results_By_team
-from helperFunctions import get_team_records
+from Unit3.helperLogic import get_season_Results_By_team
+from Unit3.helperLogic import get_team_records
 
 schedules = get_team_records(2025)
 #print(schedules)

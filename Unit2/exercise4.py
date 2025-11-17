@@ -1,4 +1,4 @@
-from helperFunctions import weeklyPlayerStats, plot_weekly_player_stats, plot_player_stat
+from Unit3.helperLogic import weeklyPlayerStats, plot_weekly_player_stats, plot_player_stat
 import matplotlib.pyplot as plt
 
 # 1) Using an existing stats dataframe:
