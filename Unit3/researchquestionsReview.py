@@ -14,7 +14,7 @@ print(advanceStats)
 qbData = weeklyPlayerStats(2024, 'QB')
 #print(qbData)
 
-
+records = get_team_records
 def get_team_records(year):
     games = nfl.import_schedules([year])
 
@@ -45,5 +45,8 @@ print(" I believe that this question is a relation because it is trying to see i
 
 '3. Who has the most passing yards of all time ? '
 print(" You can't really awnser this question because its to vague, with the data that i have it stops at 1999.")
+
+
+
 
 
